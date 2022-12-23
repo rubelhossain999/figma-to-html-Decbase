@@ -8,8 +8,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #646464;
+    color: #646464
 }
+
 h1,
 h2,
 h2,
@@ -17,4 +18,133 @@ h4 {
     font-family: 'Poppins', sans-serif;
     color: #212121;
     font-weight: 500;
+}
+
+/* Header CSS  */
+header.header-area {
+    padding: 25px;
+}
+
+.header-area .nav-item {
+    padding-right: 30px
+}
+
+.header-area .nav-link {
+    font-size: 16px;
+    color: #111111;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.header-area .nav-link.active {
+    color: #646464
+}
+
+.header-area .nav-item:last-child {
+    background: #CAA892;
+    border-radius: 15px 0px;
+    padding: 0px 18px;
+}
+
+.header-area .nav-item:last-child .nav-link {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.header-area .nav-item:last-child .nav-link:hover {
+    color: #f7ede3;
+}
+
+/************ 
+ Footer CSS
+ ***********/
+footer.footer-area {
+    background: #F8F8F8;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.about-footer p {
+    font-size: 18px;
+    color: #646464;
+    margin-top: 20px;
+}
+
+.footer-page h4 {
+    font-size: 22px;
+    color: #212121;
+}
+
+.footer-page ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-page p {
+    font-size: 18px;
+}
+
+.footer-page ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+.footer-page ul li a {
+    color: #646464;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-page ul li a:hover {
+    color: #CAA892;
+    transition: .3s;
+}
+
+/* Sub-footer */
+.sub-footer p {
+    font-size: 14px;
+    border-top: 1px solid #C4C4C4;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-social i {
+    background: #ccc;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #222;
+}
+
+.footer-social i:hover {
+    background: #CAA892;
+    color: #fff;
+    transition: 0.3s;
+}
+
+/* Footer Path */
+.footer-path {
+    position: absolute;
+    top: -70px;
+}
+
+.footer-path img {
+    width: 200px;
+}
+
+/***************
+ Hero Section 
+ ***************/
+.hero-right h1 {
+    color: #212121;
+    font-size: 68px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+.hero-left img {
+    width: 100%;
 }
