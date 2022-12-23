@@ -91,7 +91,7 @@ footer.footer-area {
 }
 
 .footer-page ul li a {
-    color: #646464;
+    color: #111111;
     text-decoration: none;
     font-size: 18px;
 }
@@ -147,4 +147,34 @@ footer.footer-area {
 }
 .hero-left img {
     width: 100%;
+}
+.hero-right h4 {
+    font-size: 20px;
+    color: #646464;
+    font-weight: 400;
+}
+.hero-right p {
+    font-size: 18px;
+    color: #646464;
+    line-height: 30px;
+    font-family: 'Open Sans';
+}
+.hero-section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.theme-button a {
+    text-decoration: none;
+    background: #caa892;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 20px 0px;
+    font-size: 18px;
+}
+.theme-button {
+    padding-top: 20px;
+}
+.theme-button a:hover {
+    color: #eae4e1;
+    transition: .3s;
 }
