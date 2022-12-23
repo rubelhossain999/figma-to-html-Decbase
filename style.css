@@ -1,0 +1,20 @@
+/* Google font link */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #646464;
+}
+h1,
+h2,
+h2,
+h4 {
+    font-family: 'Poppins', sans-serif;
+    color: #212121;
+    font-weight: 500;
+}
