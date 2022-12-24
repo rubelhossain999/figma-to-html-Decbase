@@ -20,6 +20,10 @@ h4 {
     font-weight: 500;
 }
 
+img {
+    width: 100%;
+}
+
 .theme-button a {
     text-decoration: none;
     background: #caa892;
@@ -111,6 +115,10 @@ footer.footer-area {
     padding-top: 50px;
     padding-bottom: 20px;
     position: relative;
+}
+
+.about-footer img {
+    width: 70%;
 }
 
 .about-footer p {
@@ -241,7 +249,7 @@ span.text-design {
 /************* 
    Service Area
  ***************/
- .our-service-section {
+.our-service-section {
     margin-top: 200px;
     position: relative;
     margin-bottom: 100px;
