@@ -182,12 +182,30 @@ footer.footer-area {
 }
 
 /* Footer Path */
-.footer-path {
+.path-design {
     position: absolute;
     top: -70px;
 }
 
-.footer-path img {
+.path-design img {
+    width: 200px;
+}
+
+.path-design-two {
+    position: absolute;
+    top: 700px;
+}
+
+.path-design-two img {
+    width: 200px;
+}
+
+.path-design-three {
+    position: absolute;
+    top: 900px;
+}
+
+.path-design-three img {
     width: 200px;
 }
 
@@ -242,6 +260,23 @@ span.text-design {
     width: 100%;
     top: 20px;
     left: 20px;
+    z-index: -1;
+    border-radius: 140px 0px;
+}
+
+.image-design-two {
+    position: relative;
+    z-index: 1;
+}
+
+.image-design-two::after {
+    position: absolute;
+    content: "";
+    border: 2px solid #B0855B;
+    height: 100%;
+    width: 100%;
+    top: -20px;
+    left: -20px;
     z-index: -1;
     border-radius: 140px 0px;
 }
@@ -315,3 +350,87 @@ span.text-design {
 .owl-nav .owl-prev {
     margin-right: 15px;
 }
+
+/*****************
+      Success CSS 
+ *****************/
+span.font-design h1 {
+    font-family: 'Open Sans';
+    background-image: url(assets/images/text-bg/text-bg.png);
+    font-weight: 700;
+    font-size: 288px;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.success-sections {
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+
+.success-left h4 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 65px;
+    color: #212121;
+}
+
+/***************************
+Complated Wordk CSS 
+***************************/
+.single-works {
+    margin-top: 100px;
+}
+
+.completed-work {
+    padding: 100px 0;
+    background: #F8F8F8;
+}
+
+.work-titlt h3 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #212121;
+}
+
+.single-work {
+    width: 185px;
+    height: 182px;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.single-work h3 {
+    font-size: 35px;
+    color: #222;
+    font-weight: 700;
+}
+
+/* TESTIMONIALS CSS */
+.testimonials-sections {
+    margin-top: 200px;
+}
+
+.single-testimonials {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 7px 7px 30px 5px rgba(66, 96, 84, 0.15);
+    border-radius: 70px 0px;
+    align-items: center;
+    margin-top: 40px;
+    padding: 0px 20px;
+}
+.test-padding {
+    display: flex;
+    padding: 20px;
+}
+
